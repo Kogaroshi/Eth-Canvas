@@ -1,0 +1,7 @@
+private-key.txt
+kovan-private-key.txt
+temp.js
+temp.py
+.vscode/
+.DS_Store
+node_modules/

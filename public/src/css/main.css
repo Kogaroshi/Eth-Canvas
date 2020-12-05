@@ -1,0 +1,60 @@
+body {
+    background: lightgray;
+    background: linear-gradient(0deg, lightgray 0%, white  100%);
+
+    font-family: "Work Sans Thin",BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    /* Tahoma; */
+}
+
+a {
+    color: black !important;
+}
+
+#loggedIn {
+    z-index: 1000;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    padding: 1%;
+}
+
+.nav-item {
+    min-width: 125px !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black !important;
+    background-color: transparent !important;
+    min-width: 120px !important;
+}
+
+.nav-link {
+    border: 1px solid transparent;
+}
+
+[class="nav-link active"] {
+    border: 1px solid black !important;
+}
+
+.pixel {
+    width: 1px;
+    height: 1px;
+}
+
+.btn-label {
+    padding-top: .375rem;
+}
+
+.owned-pixel{
+    cursor: pointer;
+}
+
+.selected {
+    border: 1px solid black !important;
+    border-radius: .25rem;
+}
+
+#pixel-list {
+    padding: 0;
+    list-style-type: none;
+}
